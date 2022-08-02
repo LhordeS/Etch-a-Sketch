@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+
+#grid{
+    width: 808px;
+    height: 808px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border: solid black 2px;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    border: solid black 1px;
+    /* flex-wrap: wrap; */
+}
